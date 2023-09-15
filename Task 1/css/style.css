@@ -1,0 +1,666 @@
+*{
+    box-sizing: border-box;
+}
+head,body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color:rgb(12, 12, 12);
+}
+.header_section
+{
+    background-color: black;
+}
+
+.navbar a img{
+    width: 130px;
+}
+.navbar,.collapse,.navbar-nav,.form-inline div ul
+{
+    display: flex;
+    gap: 30px;
+}
+.navbar li a,.form-inline div ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: white;
+    transition: all .1s;
+}
+
+.navbar li a:hover,.form-inline div ul li a:hover
+{
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+}
+
+.navbar li,.form-inline div ul li
+{
+    list-style: none;
+    margin: 40px 20px 0 0;
+}
+
+.form-inline{
+    position: relative;
+    left: 300px;
+}
+.search
+{
+    font-size: 18px;
+    box-sizing: border-box;
+    padding:10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 45px;
+    left: 280px;
+    outline: none;
+}
+.search:focus{
+    border: 4px solid green;
+}
+
+
+/* Coffee Section Start */
+
+.coffee_section
+{
+    box-sizing: border-box;
+    background-color:black;
+}
+.head1
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+.coffee_taital{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.coffee_taital::before{
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 0%;
+    left: 0px;
+    bottom:-8px;
+    background: green;
+    width:0%;
+    border-radius: 50px;
+    transition: width .6s ease;
+}
+
+.coffee_taital:hover::before
+{
+    width: 70%;
+}
+
+   .coffee-container {
+    width: 100%;
+    height: 97vh;
+    overflow: hidden;
+  }
+  
+  .row1{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .text {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    width: 100%;
+    height: 97.4%;
+    color: #fff;
+    padding: 20px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .text h1{
+    color: green;
+    letter-spacing: 3px;
+  }
+
+  .text p{
+    font-size: 20px;
+    max-width: 725px;
+    letter-spacing: 2px;
+    line-height: 32px;
+  }
+
+  .images {
+    width: 100%;
+    height: 100vh;    
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
+
+  .row1{
+    animation: slide 10s linear infinite;
+  }
+  .borderbox
+  {
+    max-width: 825px;
+    transition: scale .2s ease;
+  }
+
+  .borderbox
+  {
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 130px;
+  }
+  .borderbox:hover{
+    scale: 1.08;
+  }
+
+
+  /*  */
+  .cofeetypes
+  {
+    background-color: rgba(15, 14, 14, 0.7);
+  }
+  .coffee-items
+  {
+    display: flex;
+    justify-content: space-around;
+    height: 900px;
+  }
+
+  .head2
+  {
+    position: relative;
+    width: 370px;
+    height: 60px;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin: 40px;
+    cursor: pointer;
+    padding: 10px;
+    left: 800px;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+  }
+
+  .head2::before
+  {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 0%;
+    left: 10px;
+    top: 70px;
+    bottom:3px;
+    background: green;
+    width:0%;
+    border-radius: 50px;
+    transition: width .6s ease;
+  }
+
+  .head2:hover::before
+{
+    width: 70%;
+}
+
+  .coffeedesc,.coffeeimg
+  {
+    width: 800px;
+    padding: 20px;
+    margin: 10px;
+    height: 750px;
+  }
+
+  .p-item{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    margin-bottom: 60px;
+    transition: all 0.4s ease;
+  }
+
+  .p-item:hover{
+    cursor: pointer;
+    transform: translateX(-60px);
+  }
+  .item1:before
+  {
+    content: "Espresso:";
+  }
+  .item2:before
+  {
+    content: "Filter Coffee:";
+  }
+  .item3:before
+  {
+    content: "Specialty Coffees:";
+  }
+  .item4:before
+  {
+    content: "Decaffeinated Coffee:";
+  }
+  .item5:before
+  {
+    content: "Cold Brew:";
+  }
+  .item6:before
+  {
+    content: "Flavored Coffees:";
+  }
+  
+  .item1:before,.item2:before,.item3:before,.item4:before,.item5:before,.item6:before
+  {
+    color: rgb(31, 135, 31);
+    font-size: 25px;
+  }
+
+  .coffeeimg
+  {
+    background-image: url(https://cdn.pixabay.com/photo/2023/04/11/13/47/coffee-7917304_1280.jpg);
+  background-position: center; 
+  }
+  .imghead
+  {
+    width: 100%; 
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    letter-spacing: 3px;
+    background-color: rgba(36, 36, 36, 0.25);
+  }
+
+
+
+
+
+
+
+/*  */
+  .coffee_section_2
+  {
+    display: flex;
+  }
+  .carousel 
+  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .arrow
+  {
+    display: flex;
+    justify-content: space-around;
+  }
+  .arrow a i{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    background-color: green;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .arrow a i:hover{
+    background-color:rgb(3, 86, 3);
+    color: white;
+  }
+
+
+.cofeetypes
+{
+    display: none;
+}
+
+  .cofeetypes.active
+  {
+    display: block;
+  }
+
+  /*  */
+
+  .beanimg
+  {
+    height: 500px;
+    position: relative;
+    transition: all 0.2s linear;
+  }
+  
+  .beans
+  {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+ .bean-items
+ {
+    position: relative;
+ }
+
+ .intro
+ {
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    opacity: 0.7;
+ }
+
+
+ /*  */
+
+ .main-container
+        {
+            box-sizing: border-box;
+            background-color: rgb(12, 12, 12);
+        }
+        .maincontainerhead
+        {
+            display: flex;
+            padding: 20px;
+            justify-content: center;
+            box-sizing: border-box;
+            letter-spacing: 3px;
+            padding-top: 50px;
+        }
+
+        .sub-container
+        {
+                width: 100%;
+                height: 600px;
+                display: flex;
+                top: 400px;
+                padding-top: 40px;
+        }
+
+        .items
+        {
+            text-align: center;
+            margin-left: 75px;    
+            padding: 10px;   
+        }
+
+        .items img{
+            width: 400px;
+            background-color: black;
+            border-radius: 40px;
+            box-shadow: 14px 14px 28px rgba(0,0,0,0.5),10px 10px 24px rgba(0,0,0,0.5);
+        }
+
+        .img{
+            background-color: black;
+            border-radius: 40px;
+            padding: 0px;
+            position: relative;
+            overflow: hidden;    
+            transition: all 0.2s ease;      
+        }
+
+        .items p,h2
+        {
+            display: block;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .img
+        {
+            position: relative;
+        }
+        .items
+        {
+            color: white;
+        }
+        .img p
+        {
+            font-size: 18px;
+        }
+        .img h2
+        {
+            color: green;
+        }
+        .img h2,.img p{
+            display: none;
+            width: 380px;    
+        }
+        .img:hover h2,.img:hover p
+        {
+            display: block;
+        }
+
+        .img:hover
+        {
+            transform: rotate(3deg);
+            scale: 1.1;
+        }
+ 
+/*  */
+
+.outer-container h1
+    {
+        text-align: center;
+        color: white;
+        letter-spacing: 3px;
+        text-transform: capitalize;
+        margin-top: 50px;
+    }
+      .ccontainer
+      {
+         width: 100%;
+         height: 80vh;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+      }
+
+      
+      .ccontainer-child
+      {
+         width: 500px;
+         height: 600px;
+         position: relative;
+        }
+        .inside-container
+        {
+         width: 90%;
+         height: 90%;
+         margin: 5%;
+         position: absolute;
+         transition: all 0.3s linear;
+        }
+        
+        .inside-container:hover{
+            scale: 1.1;
+            
+        }
+        
+      .inside-container img
+      {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          margin-top: 80px;
+          box-shadow: blue 0px 0px 0px 2px inset, rgb(9, 9, 9) 10px -10px 0px -3px, rgb(15, 94, 38) 10px -10px;
+        }
+        
+        .inside-container h2,.inside-container p{
+            text-align: center;
+        }
+        
+        .inside-container h2
+      {
+        color: green;
+        font-size: 30px;
+      }
+      
+      .inside-container p
+        {
+          color: white;
+          font-size: 20px;
+        }
+
+
+        /*  */
+
+        .outdiv
+        {
+           margin-top: 80px;
+           display: flex;
+           background-image: url(../images/bgimg.jpg);
+           padding: 20px;
+           
+        }
+
+        .contact-head
+        {
+          text-align: center;
+          margin-top: 80px;
+          font-size: 30px;
+          letter-spacing: 3px;
+        }
+     
+     .field, select, textarea {
+       width: 100%;
+       padding: 12px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       box-sizing: border-box;
+       margin-top: 6px;
+       margin-bottom: 16px;
+       background-color: rgb(98, 97, 97);
+       color: white;
+       font-size: 16px;
+     }
+     
+     input[type=submit] {
+       background-color: #015e17;
+       color: white;
+       padding: 12px 20px;
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+       font-size: 20px;
+     }
+     
+     input[type=submit]:hover {
+       background-color: #2c7f30;
+     }
+     
+     .container {
+       border-radius: 5px;
+       background-color: rgb(23, 23, 23);
+       padding: 20px;
+       width: 600px;
+       position: relative;
+       margin-left: auto;
+       margin-right: auto;
+       z-index: 2;
+     }
+     h2{
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-weight: bold;
+        color: white;
+     }
+     
+     label,option{
+        color: white;
+        font-size: 20px;
+     }
+     
+     .shopimg
+     {
+        width: 560px;
+     }
+     .shoph2
+     {
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-weight: bold;
+        color: green;
+     }
+     .shopadd
+     {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        color: white;
+     }
+     
+     .padding_left_10
+     {
+        color: white;
+        font-size: 20px;
+        margin:10px;
+     }
+
+     /*  */
+
+     .footer-container
+     {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+     }
+
+     .icon ul li 
+     {
+      list-style-type: none;
+     }
+
+     .copyright_text
+     {
+      font-size: 20px;
+     }
+     .copyright_text a
+     {
+      color: green;
+      font-size: 25px;
+      text-decoration: none;
+     }
+     .icon ul
+     {
+      box-sizing: border-box;
+      display: flex;
+      gap: 100px;
+      font-size: 30px;
+      margin-top: 18px;
+     }
+
+     .icon ul li a i
+     {
+      color: white;
+      transition: all 0.1s linear;
+     }
+     .icon ul li a i:hover
+     {
+      color: green;
+      scale: 1.3;
+     }
