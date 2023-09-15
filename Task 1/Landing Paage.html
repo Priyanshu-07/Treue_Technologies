@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Task 1-Landing Page</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/logo1.jpg" type="image/gif" />
+      <!-- font css -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="./css/style.css">
+   </head>
+   <body>
+      <div class="header_section header_bg">
+         <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <a class="navbar-brand"href="index.html"><img src="images/logo.jpg"></a>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="coffees.html">Coffees</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                     </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                     <div class="login_bt">
+                        <ul>
+                           <li><a href="#"><span class="user_icon"><i class="fa fa-user" aria-hidden="true"></i></span> Login</a></li>
+                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                           <li><input class="search" type="text" placeholder="Search.." name="search"></li>
+                        </ul>
+                     </div>
+                  </form>
+               </div>
+            </nav>
+         </div>
+      </div>
+      <!-- header section end -->
+      <!-- coffee section start -->
+      <div class="coffee_section layout_padding">
+         <div class="head1"><h1 class="coffee_taital">OUR COFFEE OFFER</h1></div>
+         <div class="mid">
+         <div class="coffee-container">
+            <div class="row1">
+               <div class="images">
+                  <div class="image" style="background-image: url(https://static.vecteezy.com/system/resources/previews/003/149/103/non_2x/cup-of-coffee-with-magazine-on-table-in-cafe-in-dark-tone-and-vintage-free-photo.jpg)">
+                  </div>
+                </div>
+            </div>
+            <div class="text">
+               <div class="borderbox">
+               <h1>Offer 1: Morning Pick-Me-Up Special</h1>
+               <p>Start your day right with our Morning Pick-Me-Up Special! Enjoy a freshly brewed small coffee or tea of your choice and a mouthwatering pastry for just $5. Perfect for those early risers looking for a delicious breakfast on the go.</p>
+               </div>
+               <div class="borderbox">
+               <h1>Offer 2: Buy One, Get One 50% Off</h1>
+               <p>Bring a friend and share the coffee love! Buy any of our signature lattes, and get the second one at 50% off. It's the perfect excuse to catch up over a cup of your favorite coffee concoctions.</p>
+               </div>
+               <div class="borderbox">
+               <h1>Offer 3: Loyalty Card Rewards</h1>
+               <p>Join our loyalty program and start earning rewards with every purchase. After your 5th coffee or tea purchase, enjoy a FREE drink of your choice as a token of our appreciation for your continued support. Get started on your journey to free coffee today!</p>
+               </div>
+            </div>
+         </div>
+       </div>
+         <div class="coffee_section_2">
+            <div id="main_slider" class="carousel slide" data-ride="carousel">
+               <div class="slider-div">
+               <div class="cofeetypes active">
+                  <h1 class="head2">TYPES OF COFFEE</h1>
+                  <div class="coffee-items">
+                  <div class="coffeeimg-container" id="imgcontainer">
+                     <div class="coffeeimg" id='img'></div>
+                     <p class="imghead" id="demo">Espresso</p>
+                  </div>
+                  <div class="coffeedesc">
+                     <p class="p-item item1" id="changeButton" onclick="myFunction(0)"> Describe the classic Italian coffee shot, its rich flavor, and the various drinks made using espresso as a base, like Americano, Macchiato, and more.</p>
+                     <p class="p-item item2" id="changeButton1" onclick="myFunction(1)"> Explain the preparation methods for drip coffee, French press, and pour-over, highlighting the unique flavors they offer.</p>
+                     <p class="p-item item3" id="changeButton2" onclick="myFunction(2)"> Introduce readers to specialty coffee beans, such as Arabica and Robusta, and discuss their taste profiles and regions of cultivation.</p>
+                     <p class="p-item item4" id="changeButton3" onclick="myFunction(3)"> Share information on how decaffeinated coffee is made and its appeal to those seeking caffeine-free options.</p>
+                     <p class="p-item item5" id="changeButton4" onclick="myFunction(4)"> Explain the process of brewing coffee using cold water and highlight its refreshing qualities, especially during hot weather.</p>
+                     <p class="p-item item6" id="changeButton5" onclick="myFunction(5)"> Mention popular coffee flavorings such as vanilla, caramel, and hazelnut, and how they enhance the coffee experience.</p>
+                  </div>
+               </div>
+            </div>
+         <div class="cofeetypes">
+            <h1 class="head2">BEAN VARITIES</h1>
+            <div class="beans">
+            <div class="bean-items">
+            <img class="beanimg" src="./images/ArabicaBeans.jpg" alt="Arabica Beans">
+               <div class="intro">
+                  <h1>Arabica Beans</h1>
+                  <p>Detail the characteristics of Arabica beans, their mild acidity, and notes of sweetness, and where they are grown.</p>
+               </div>
+            </div>
+            <div class="bean-items">
+               <img class="beanimg" src="./images/Robusta Beans.jpg" alt="Robusta Beans">
+                  <div class="intro">
+                     <h1>Robusta Beans</h1>
+                     <p>Describe Robusta beans' higher caffeine content, stronger flavor, and their use in espresso blends.</p>
+                  </div>
+               </div>
+               <div class="bean-items">
+                  <img class="beanimg" src="./images/Single-Origin Beans.jpg" alt="Single-Origin Beans" style="width: 748px;">
+                     <div class="intro">
+                        <h1>Single-Origin Beans</h1>
+                        <p>Explain the concept of single-origin coffee and its unique taste based on the specific region and growing conditions.</p>
+                     </div>
+                  </div>
+                  <div class="bean-items">
+                     <img class="beanimg" src="./images/Coffee Blends.jpg" alt="Coffee Blends" style="width: 748px;">
+                     <div class="intro">
+                           <h1>Coffee Blends</h1>
+                           <p>Mention popular coffee blends and their unique flavor profiles, such as breakfast blends or dark roast blends.</p>
+                        </div>
+                     </div>
+                  </div>
+         </div>
+      </div>
+         </div> 
+            </div>
+            <div class="arrow">
+               <a class="carousel-control-prev prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-arrow-left"> Prev</i>
+               </a>
+               <a class="carousel-control-next next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-arrow-right"> Next</i>
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="main-container">
+         <h1 class="maincontainerhead">COFFEE AND PASTRY</h1>
+         <div class="sub-container">
+             <div class="items">
+                 <div class="img"><img src="./images/pairing.jpg" alt="Coffee and Pastry">
+                 <h2>Pairing Recommendations</h2>
+                 <p>Suggest coffee and pastry pairings that complement each other, like a croissant with a cappuccino or a fruity pastry with a light roast.</p>
+             </div>
+             </div>
+             <div class="items">
+                 <div class="img"><img src="./images/pastry.jpeg" alt="Coffee and Pastry">
+                 <h2>Specialty Pastries</h2>
+                 <p>Highlight unique pastries from different cultures that go well with coffee, such as Portuguese custard tarts or Mexican conchas.</p>
+             </div>
+             </div>
+             <div class="items">
+                 <div class="img"><img src="./images/seasonal.jpg" alt="Coffee and Pastry">
+                 <h2>Seasonal Offerings</h2>
+                 <p>Feature seasonal pastry items that can be enjoyed with coffee, such as pumpkin spice muffins in the fall or fruit tarts in the summer.</p>
+             </div>
+             </div>
+             <div class="items">
+                 <div class="img"><img src="./images/desert.jpg" alt="Coffee and Pastry">
+                 <h2>Dessert Coffees</h2>
+                 <p>Discuss coffee-based desserts like affogato, tiramisu, or coffee-flavored ice cream.</p>
+             </div>
+             </div>
+         </div>
+         <hr>
+     </div>
+     <div class="outer-container">
+      <h1>COFFEE TO GO</h1>
+      <div class="ccontainer">
+    <div class="ccontainer-child">
+       <div class="inside-container">
+           <h2>Takeaway Menu</h2>
+           <p>List the various coffee options available for on-the-go customers, including sizes, flavors, and customization choices.</p>
+           <img src="../images/takeway.jpg" alt="">
+       </div>
+    </div>
+    <div class="ccontainer-child">
+       <div class="inside-container">
+           <h2>Travel-Friendly Options</h2>
+           <p>Mention travel cups, thermoses, or spill-proof lids that customers can purchase for their convenience of wealth and life.</p>
+           <img src="../images/travelf.jpg" alt="">
+       </div>
+    </div>
+    <div class="ccontainer-child">
+       <div class="inside-container">
+           <h2>Mobile Ordering</h2>
+           <p>If applicable, explain how customers can order coffee advance through a mobile app for a seamless experience.</p>
+           <img src="../images/mobile.jpg" alt="">
+       </div>
+    </div>
+    <div class="ccontainer-child">
+       <div class="inside-container">
+           <h2>Sustainability</h2>
+           <p>Discuss efforts to reduce waste, such as offering reusable cups or discounts for customers who bring their own containers.</p>
+           <img src="../images/sustain.png" alt="" style="width: 400px;">
+       </div>
+    </div>
+      </div>
+      <hr>
+  </div>
+      <!-- coffee section end -->
+      <!-- footer section start -->
+<h1 class="contact-head">CONTACT FORM</h1>
+<div class="outdiv">
+   <div class="container">
+  <form action="/action_page.php" autocomplete="off">
+    <label for="fname">First Name</label>
+    <input class="field" type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input class="field" type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="Email">Email Id</label>
+    <input class="field" type="text" id="Email" name="Email" placeholder="Email id..">
+
+    <label for="subject">Feedback</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div class="container">
+   <img class="shopimg" src="../images/shop.jpg" alt="">
+   <h2 class="shoph2">Address</h2>
+   <p class="shopadd">Landmark KFC building, 55, Santhome High Rd, Santhome, Raja Annamalai Puram, Chennai, Tamil Nadu 600028</p>
+   <div class="ph">
+      <i class="fa fa-phone" aria-hidden="true"></i><spam class="padding_left_10">+01 1234567890</spam><br><br>
+      <i class="fa fa-envelope" aria-hidden="true"></i><spam class="padding_left_10">demo@gmail.com</spam>
+   </div>
+ </div>
+</div>
+      <div class="footer-container">
+         <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Priyanshu Verma</a></p>
+         <div class="icon">
+            <ul>
+               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+         </div>
+      </div>
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="script.js"></script>
+   </body>
+</html>
