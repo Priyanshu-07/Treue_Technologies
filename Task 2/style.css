@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@300&display=swap');
+body,head{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.container
+{
+    /* border: 2px solid red; */
+    height: 100vh;
+    background-image: linear-gradient(to left ,rgb(38, 38, 179), rgb(90, 44, 96));
+}
+.compname
+{
+    /* border: 2px solid blue; */
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif; 
+}
+.content
+{
+    /* border: 2px solid honeydew; */
+    width: 650px;
+    height: 300px;
+    position: absolute;
+    top: 300px;
+    left: 1300px;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-family: 'Raleway',sans-serif;
+    font-size: 38px;
+    letter-spacing: 10px;
+    padding: 10px;
+    font-weight: 100px;
+    word-spacing: 15px;
+}
+.content button
+{
+    font-size: 30px;
+    position: absolute;
+    top: 340px;
+    left: 80px;
+    padding: 20px 50px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.content button a{
+    text-decoration: none;
+    color: blue;
+}
+
+.content:hover button
+{
+    scale: 1.1;
+}
+
+/* contact me  */
+
+.contact-container
+{
+    position: relative;
+}
+
+.img-area
+{
+    border: 2px solid red;
+    height: 100vh;
+    background-image: url(./images/bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: blur(3px);
+}
+.content1
+{
+    position: absolute;
+    top: 18%;
+    left: 60%;
+    width: 35%;
+    padding: 20px 10px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.content1 p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content1 h2
+{
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.content1 hr
+{
+    height: 4px;
+    background-color: wheat;
+    margin: 35px 0px;
+}
+
+
+/*  */
+.content2
+{
+    position: absolute;
+    top: 19%;
+    left: 2%;
+    width: 50%;
+    padding: 20px 10px;
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+    font-weight: bold;
+    /* border: 2px solid white; */
+    border-radius: 20px;
+}
+
+.content2 p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.content2 h3,h4
+{
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    left: 20px;
+}
+
+.content2 h4
+{
+    font-size: 18px;
+    width: 800px;
+    line-height: 35px;
+}
+.content2 h1
+{
+    font-size: 48px;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: green;
+    position: relative;
+    left: 20px;
+}
+
+.content2 hr
+{
+    height: 4px;
+    background-color: wheat;
+    margin: 35px 0px;
+}
+
+.icons
+{
+    display: flex;
+    gap: 60px;
+    margin: 140px 0 0 20px;
+}
+
+.icons a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    transition: all 0.2s ease;
+}
+
+.icons a:hover
+{
+    color: green;
+    scale: 1.3;
+}
